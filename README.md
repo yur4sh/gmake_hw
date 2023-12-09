@@ -18,7 +18,7 @@ Linux GNU Make homework
 2) To build the project (substitute 'X' with makefile number):
     ```make -f Makefile_X```
 
-3) Test if task_1 project successfully build:
+3) Test if task_1 project is successfully built:
     ```./task_1```
 
 4) To clean local build artifacts (substitute 'X' with makefile number):
@@ -33,7 +33,7 @@ Linux GNU Make homework
    Method '1' is 'make -f', '2' stands for 'include .mk':
     ```make METHOD=X```
 
-3) Test if task_2 project successfully build:
+3) Test if task_2 project is successfully built:
     ```./task_2```
 
 4) To clean local build artifacts.
