@@ -1,0 +1,17 @@
+# === Part 1 (2.3) ===
+
+all: task_1
+
+task_1: main.o src1.o
+	gcc $^ -o $@
+
+main.o: main.c
+	gcc -c $< -o $@
+
+src1.o: src1.c
+	gcc -c $< -o $@
+
+clean:
+	rm -f ./*.o ./task_1
+
+# ====================
