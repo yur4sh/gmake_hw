@@ -27,7 +27,7 @@ Linux GNU Make homework
 ### Task #2
 
 1) Go to the task #2 directory:
-    ```cd make_task1```  
+    ```cd make_task2```  
 
 2) To build the project (substitute 'X' with method number).
    Method '1' is 'make -f', '2' stands for 'include .mk':
